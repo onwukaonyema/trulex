@@ -9,9 +9,13 @@ import * as AOS from 'aos';
 })
 export class AppComponent implements OnInit {
   title = 'trulex';
+  showPreloader = true;
 
   ngOnInit(): void {
     initFlowbite();
+    window.onload = () => {
+      this.showPreloader = false;
+    };
   }
   ngAfterViewInit() {
     AOS.init();
