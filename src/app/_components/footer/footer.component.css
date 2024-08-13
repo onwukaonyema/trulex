@@ -6,3 +6,23 @@
   background-attachment: scroll;
   background-blend-mode: overlay;
 }
+.custom-shape-divider-top-1723564857 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: rotate(180deg);
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1723564857 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 120px;
+}
+
+.custom-shape-divider-top-1723564857 .shape-fill {
+  fill: #019040;
+}
